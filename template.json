@@ -1,0 +1,25 @@
+
+{
+    "nome": "test",
+    "categoria": ["Open", "Storica"],
+    "difficolta_media": 3,
+    "stress_medio": 3,
+    "persone_min": 2,
+    "persone_max": 4,
+    "obbiettivi":[
+        {
+            "obbiettivo": "causare stress",
+            "difficolta": 1,
+            "stress": 4,
+            "parti_del_corpo_interessate": ["gambe", "addominali"]
+        },
+        {
+            "obbiettivo": "sforzo fisico",
+            "difficolta": 5,
+            "stress": 2,
+            "parti_del_corpo_interessate": ["gambe", "addominali", "core", "braccia"]
+        }
+    ],
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+}
