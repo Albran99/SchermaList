@@ -6,8 +6,8 @@ class Obbiettivo:
         self.parti = parti
 
     def __str__(self):
-        return ("name " + self.name + "\ndifficoltà " + str(self.difficolta) + "\nstress " + str(self.stress) +
-                "\nparti [" + self.printParti() + "]")
+        return ("\tName: " + self.name + "\n\tDifficoltà: " + str(self.difficolta) + "\n\tStress: " + str(self.stress) +
+                "\n\tParti: [" + self.printParti() + "]")
 
     def printParti(self):
         return ', '.join(self.parti)

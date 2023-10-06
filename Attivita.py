@@ -12,8 +12,12 @@ class Attivita:
 
 
     def __str__(self):
+        string = ''
+        for obb in self.obbiettivi:
+            string += obb.__str__()
+            string += '\n--------------------\n'
         return ("Nome: " + self.nome + "\nCategoria: [" + ', '.join(self.categoria) + "]\nDifficoltà media: "
                 + str(self.difficolta_media) + "\nStress medio: " + str(self.stress_medio) + "\nPersone min: "
-                + str(self.persone_min) + "\nPersone max: " + str(self.persone_max) + "\nObbiettivi: " +
-                (self.obbiettivi.__str__()) + "\nDescrizione: " + self.descrizione)
+                + str(self.persone_min) + "\nPersone max: " + str(self.persone_max) + "\nObbiettivi:\n" +
+                string + "\nDescrizione: " + self.descrizione)
 
